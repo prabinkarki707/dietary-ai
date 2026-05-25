@@ -1,5 +1,5 @@
-# Use PyTorch CPU base image to avoid ~10 min build time for torch install
-FROM pytorch/pytorch:2.3.0-cuda11.8-cudnn8-runtime
+# Lean Python 3.11 slim base — CPU only (avoids 8GB CUDA image on t3.medium)
+FROM python:3.11-slim
 
 # Install system dependencies for Tesseract OCR and PDF processing
 RUN apt-get update && apt-get install -y \
@@ -17,7 +17,10 @@ WORKDIR /app
 # Copy requirements first for Docker layer caching
 COPY requirements.txt .
 
-# Install remaining Python dependencies (torch already installed in base image)
+# Install CPU-only torch first (much smaller than CUDA build ~800MB vs ~8GB)
+RUN pip install --no-cache-dir torch==2.3.0 torchvision==0.18.0 --index-url https://download.pytorch.org/whl/cpu
+
+# Install remaining Python dependencies
 RUN pip install --no-cache-dir \
     anthropic>=0.25.0 \
     fastapi>=0.111.0 \
@@ -28,7 +31,6 @@ RUN pip install --no-cache-dir \
     Pillow>=10.3.0 \
     pdf2image>=1.17.0 \
     "transformers>=4.41.0" \
-    torchvision>=0.18.0 \
     "sentence-transformers>=3.0.0" \
     "faiss-cpu>=1.8.0" \
     pandas>=2.2.0 \
