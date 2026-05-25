@@ -4,7 +4,7 @@
 
 **AI-powered dietary advice for people living with chronic conditions**
 
-Built as part of my MSc dissertation at York St John University (COM6016M, 2025-26)
+Built as part of my BSc dissertation at York St John University (COM6016M, 2025-26)
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
@@ -145,7 +145,7 @@ This is a research project. Nothing in this app should be taken as medical advic
 
 <div align="center">
 
-Made by **Prabin Karki** · MSc Computing · York St John University · 2026
+Made by **Prabin Karki** · BSc Computing · York St John University · 2026
 
 [prabinkarki.com](https://prabinkarki.com) · [LinkedIn](https://linkedin.com/in/prabinkarki707) · [prabin@daodial.com](mailto:prabin@daodial.com)
 
