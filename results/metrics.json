@@ -1,0 +1,248 @@
+{
+  "overall": {
+    "group": "overall",
+    "n": 1440,
+    "accuracy": 0.5472,
+    "kappa": 0.328,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.8434,
+        "recall": 0.6051,
+        "f1": 0.7046
+      },
+      "limit": {
+        "precision": 0.4024,
+        "recall": 0.3695,
+        "f1": 0.3852
+      },
+      "avoid": {
+        "precision": 0.4629,
+        "recall": 0.6583,
+        "f1": 0.5436
+      }
+    }
+  },
+  "strategy::few_shot": {
+    "group": "strategy::few_shot",
+    "n": 360,
+    "accuracy": 0.5222,
+    "kappa": 0.2984,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.8155,
+        "recall": 0.6087,
+        "f1": 0.6971
+      },
+      "limit": {
+        "precision": 0.2917,
+        "recall": 0.0619,
+        "f1": 0.1022
+      },
+      "avoid": {
+        "precision": 0.433,
+        "recall": 0.8899,
+        "f1": 0.5826
+      }
+    }
+  },
+  "strategy::rag_grounded": {
+    "group": "strategy::rag_grounded",
+    "n": 360,
+    "accuracy": 0.6139,
+    "kappa": 0.4248,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.8824,
+        "recall": 0.6522,
+        "f1": 0.75
+      },
+      "limit": {
+        "precision": 0.48,
+        "recall": 0.4248,
+        "f1": 0.4507
+      },
+      "avoid": {
+        "precision": 0.5253,
+        "recall": 0.7615,
+        "f1": 0.6217
+      }
+    }
+  },
+  "strategy::structured_role": {
+    "group": "strategy::structured_role",
+    "n": 360,
+    "accuracy": 0.5139,
+    "kappa": 0.2746,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.8333,
+        "recall": 0.6159,
+        "f1": 0.7083
+      },
+      "limit": {
+        "precision": 0.3741,
+        "recall": 0.4602,
+        "f1": 0.4127
+      },
+      "avoid": {
+        "precision": 0.4034,
+        "recall": 0.4404,
+        "f1": 0.4211
+      }
+    }
+  },
+  "strategy::zero_shot": {
+    "group": "strategy::zero_shot",
+    "n": 360,
+    "accuracy": 0.5389,
+    "kappa": 0.3145,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.8427,
+        "recall": 0.5435,
+        "f1": 0.6608
+      },
+      "limit": {
+        "precision": 0.3947,
+        "recall": 0.531,
+        "f1": 0.4528
+      },
+      "avoid": {
+        "precision": 0.4958,
+        "recall": 0.5413,
+        "f1": 0.5175
+      }
+    }
+  },
+  "condition::diabetes": {
+    "group": "condition::diabetes",
+    "n": 672,
+    "accuracy": 0.6042,
+    "kappa": 0.4119,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.9895,
+        "recall": 0.6217,
+        "f1": 0.7636
+      },
+      "limit": {
+        "precision": 0.386,
+        "recall": 0.3837,
+        "f1": 0.3848
+      },
+      "avoid": {
+        "precision": 0.4919,
+        "recall": 0.7704,
+        "f1": 0.6004
+      }
+    }
+  },
+  "condition::hypertension": {
+    "group": "condition::hypertension",
+    "n": 480,
+    "accuracy": 0.5896,
+    "kappa": 0.3885,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.9877,
+        "recall": 0.4545,
+        "f1": 0.6226
+      },
+      "limit": {
+        "precision": 0.465,
+        "recall": 0.5214,
+        "f1": 0.4916
+      },
+      "avoid": {
+        "precision": 0.5394,
+        "recall": 0.7927,
+        "f1": 0.642
+      }
+    }
+  },
+  "condition::ckd": {
+    "group": "condition::ckd",
+    "n": 480,
+    "accuracy": 0.4,
+    "kappa": 0.118,
+    "unsafe_rate": 0.0,
+    "consistency": 1.0,
+    "mean_latency_ms": 0.0,
+    "per_class": {
+      "recommend": {
+        "precision": 0.8667,
+        "recall": 0.0929,
+        "f1": 0.1677
+      },
+      "limit": {
+        "precision": 0.4727,
+        "recall": 0.26,
+        "f1": 0.3355
+      },
+      "avoid": {
+        "precision": 0.3588,
+        "recall": 0.9071,
+        "f1": 0.5142
+      }
+    }
+  },
+  "significance_tests": {
+    "zero_shot_vs_structured_role": {
+      "test": "mcnemar",
+      "statistic": 7.0,
+      "pvalue": 0.4807,
+      "significant_p05": false
+    },
+    "zero_shot_vs_few_shot": {
+      "test": "mcnemar",
+      "statistic": 109.0,
+      "pvalue": 0.0,
+      "significant_p05": true
+    },
+    "zero_shot_vs_rag_grounded": {
+      "test": "mcnemar",
+      "statistic": 23.0,
+      "pvalue": 0.0,
+      "significant_p05": true
+    },
+    "structured_role_vs_few_shot": {
+      "test": "mcnemar",
+      "statistic": 112.0,
+      "pvalue": 0.0,
+      "significant_p05": true
+    },
+    "structured_role_vs_rag_grounded": {
+      "test": "mcnemar",
+      "statistic": 20.0,
+      "pvalue": 0.0,
+      "significant_p05": true
+    },
+    "few_shot_vs_rag_grounded": {
+      "test": "mcnemar",
+      "statistic": 97.0,
+      "pvalue": 0.0075,
+      "significant_p05": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+# Environment / secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+nohup.out
+*.log
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Skill / temp files
+frontend/SKILL.md
+"frontend/ui-ux-pro-max-skill_*"
+frontend/ui-ux-pro-max-skill_*
+
+# Extra READMEs (only root README kept)
+frontend/README.md
+
+# Results / experiment logs (large files)
+results/raw_ollama_backup.csv
+results/run_log*.txt
+results/batch_id.txt
+results/batch_mapping.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

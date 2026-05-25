@@ -1,0 +1,89 @@
+food,diabetes,hypertension,ckd,allergy_flag,source_diabetes,source_hypertension,source_ckd,notes
+apple_pie,limit,limit,limit,none,NICE NG28 – high refined carbs spike BG,AHA – high sugar/saturated fat,KDOQI 2020 – high potassium/phosphate in filling,Dessert; limit portions
+baby_back_ribs,limit,avoid,limit,none,Diabetes UK – high saturated fat impairs insulin sensitivity,NICE NG136 / AHA – very high sodium+saturated fat,KDOQI 2020 – high phosphate additives in processed pork,Processed smoked meat
+baklava,limit,limit,limit,none,NICE NG28 – very high sugar + refined carbs,AHA – high sugar + saturated fat,KDOQI 2020 – nuts high in potassium/phosphate,Limit to small portion
+beef_carpaccio,limit,limit,recommend,none,Diabetes UK – lean red meat in moderation,NICE NG136 – watch sodium in dressings,KDOQI 2020 – low potassium / moderate protein,Raw lean beef; small portion
+beef_tartare,limit,limit,recommend,none,Diabetes UK – lean protein moderate,NICE NG136 – sodium watch,KDOQI 2020 – moderate protein fine at stage 3,Raw lean beef; portion controlled
+beet_salad,recommend,recommend,limit,none,Diabetes UK – low GI vegetables,AHA/DASH – potassium rich supports BP,KDOQI 2020 – high potassium; restrict in CKD stage 3+,Beetroot high K
+beignets,avoid,limit,limit,none,NICE NG28 – deep-fried refined carb; rapid BG spike,AHA – high saturated fat,KDOQI 2020 – phosphate in batter,Deep-fried dough
+bibimbap,recommend,limit,recommend,none,Diabetes UK – whole grain rice + vegetables,NICE NG136 – gochujang paste high in sodium,KDOQI 2020 – balanced; moderate potassium,Korean mixed rice bowl
+bread_pudding,avoid,limit,limit,gluten,NICE NG28 – high sugar + refined starch,AHA – high sugar/fat,KDOQI 2020 – high phosphate dairy,High-sugar dessert
+caesar_salad,recommend,limit,recommend,none,Diabetes UK – low carb greens + lean protein,NICE NG136 – dressing high in sodium,KDOQI 2020 – moderate protein; watch anchovy sodium,Sodium in dressing
+cannoli,avoid,limit,limit,none,NICE NG28 – high sugar + refined starch,AHA – high saturated fat,KDOQI 2020 – high phosphate dairy + pastry,High-sugar dessert
+caprese_salad,recommend,recommend,recommend,none,Diabetes UK – low GI; healthy fats,AHA/DASH – low sodium; potassium from tomato,KDOQI 2020 – low potassium/phosphate,Fresh tomato + mozzarella
+carrot_cake,limit,limit,limit,gluten,NICE NG28 – moderate GI; frosting raises sugar,AHA – high sugar + saturated fat frosting,KDOQI 2020 – carrots moderate K; dairy frosting raises P,Cake with cream cheese frosting
+ceviche,recommend,limit,recommend,shellfish,Diabetes UK – lean protein; low carb,NICE NG136 – lime/salt watch,KDOQI 2020 – low potassium; lean protein,Fresh fish; watch sodium
+cheesecake,avoid,limit,avoid,none,NICE NG28 – very high sugar + fat,AHA – very high saturated fat + sugar,KDOQI 2020 – very high phosphate + potassium (dairy),High dairy + sugar
+chicken_curry,recommend,limit,limit,none,Diabetes UK – lean protein + spices; low GI,NICE NG136 – sodium in curry sauces; watch salt added,KDOQI 2020 – high potassium in tomato base; potassium watch,Sauce sodium key variable
+chicken_quesadilla,limit,limit,limit,gluten,NICE NG28 – refined tortilla raises BG,NICE NG136 – cheese + sodium high,KDOQI 2020 – moderate phosphate dairy,Refined carb + cheese
+chicken_wings,limit,avoid,limit,none,Diabetes UK – fried + sauce raises BG,AHA – very high sodium in sauces,KDOQI 2020 – phosphate additives common in processed wings,Fried with high-sodium sauce
+chocolate_cake,avoid,limit,avoid,gluten,NICE NG28 – very high sugar + refined flour,AHA – high sugar + saturated fat,KDOQI 2020 – chocolate high in potassium + phosphate,High-risk dessert
+chocolate_mousse,avoid,limit,avoid,none,NICE NG28 – high sugar + fat,AHA – high saturated fat,KDOQI 2020 – dark chocolate very high K+P,Dark chocolate + cream
+churros,avoid,limit,limit,gluten,NICE NG28 – deep-fried refined carb,AHA – fried + sugar coating,KDOQI 2020 – phosphate in batter,Deep-fried dough + sugar
+club_sandwich,limit,limit,limit,gluten,Diabetes UK – white bread spikes BG; use wholemeal,NICE NG136 – processed meat + bread high sodium,KDOQI 2020 – processed meat high phosphate,Processed meat + white bread
+crab_cakes,recommend,limit,recommend,shellfish,Diabetes UK – lean seafood protein,NICE NG136 – high sodium in breading/seasoning,KDOQI 2020 – low potassium seafood,Crab high in selenium; sodium from seasoning
+croque_madame,limit,avoid,limit,gluten,NICE NG28 – refined bread raises BG; ham + egg OK,AHA – very high sodium + saturated fat (ham + cheese),KDOQI 2020 – high phosphate (dairy + processed meat),Ham/cheese toasted sandwich
+cup_cakes,avoid,limit,limit,gluten,NICE NG28 – high sugar + refined flour,AHA – high sugar + fat frosting,KDOQI 2020 – dairy frosting raises phosphate,Frosted cupcakes
+deviled_eggs,recommend,limit,recommend,none,Diabetes UK – protein + healthy fat; minimal carb,NICE NG136 – sodium from mayo/mustard; watch,KDOQI 2020 – moderate phosphate (egg); generally safe,Hard-boiled eggs + filling
+donuts,avoid,avoid,limit,gluten,NICE NG28 – fried refined carb + sugar,AHA – fried + sugar; worst for BP,KDOQI 2020 – phosphate in batter + icing,Fried dough + sugar
+dumplings,limit,limit,limit,gluten,Diabetes UK – refined wrapper raises BG; filling variable,NICE NG136 – soy/salt dipping sauce,KDOQI 2020 – potassium variable by filling,Wrapper + filling sodium key
+edamame,recommend,recommend,recommend,none,Diabetes UK – high fibre; low GI,AHA/DASH – potassium + magnesium,KDOQI 2020 – moderate potassium; phosphate is plant-based (less absorbed),Soybeans; excellent overall
+eggs_benedict,limit,limit,limit,gluten,Diabetes UK – egg + hollandaise OK; muffin refined carb,NICE NG136 – hollandaise + ham high sodium + fat,KDOQI 2020 – dairy + egg moderate phosphate; ham adds Na,Brunch dish
+escargots,recommend,limit,recommend,none,Diabetes UK – low carb; high protein,NICE NG136 – butter + garlic sodium watch,KDOQI 2020 – very low potassium/phosphate,Snails; low-carb protein
+falafel,recommend,limit,limit,none,Diabetes UK – legume protein + fibre; moderate GI,NICE NG136 – sodium from sauces + tahini,KDOQI 2020 – chickpeas moderate-high potassium + phosphate,Fried chickpea patties
+filet_mignon,recommend,limit,recommend,none,Diabetes UK – lean protein; low GI,NICE NG136 – watch sodium in sauces,KDOQI 2020 – moderate protein; low potassium,Lean beef cut; high quality protein
+fish_and_chips,limit,avoid,limit,gluten,NICE NG28 – fried batter spikes BG,AHA – deep-fried + high sodium,KDOQI 2020 – phosphate in batter + high sodium,Classic fried takeaway
+foie_gras,avoid,avoid,limit,none,Diabetes UK – very high saturated fat,AHA – very high saturated fat,KDOQI 2020 – high fat; moderate phosphate,Fatty liver; very high fat
+french_fries,avoid,avoid,limit,none,NICE NG28 – high GI; acrylamide,AHA – deep-fried + high sodium,KDOQI 2020 – high potassium (potato),Deep-fried potato
+french_onion_soup,limit,avoid,limit,gluten,NICE NG28 – bread + melted cheese raises carbs,AHA / NICE NG136 – very high sodium in broth + cheese,KDOQI 2020 – onions moderate K; cheese adds phosphate,Soup very high sodium
+french_toast,limit,limit,limit,gluten,NICE NG28 – refined bread + syrup spikes BG,AHA – sugar + saturated fat,KDOQI 2020 – egg + dairy moderate phosphate,Refined bread + egg
+fried_calamari,limit,limit,recommend,shellfish,Diabetes UK – batter raises BG,NICE NG136 – sodium from seasoning + dip,KDOQI 2020 – calamari itself low K/P; batter adds phosphate,Battered squid rings
+fried_rice,limit,limit,limit,none,Diabetes UK – high GI white rice; portion control,NICE NG136 – soy sauce very high sodium,KDOQI 2020 – high potassium vegetables + sodium,Soy sauce sodium key issue
+frozen_yogurt,limit,limit,limit,none,NICE NG28 – added sugar spikes BG,AHA – added sugar,KDOQI 2020 – moderate phosphate (dairy),Watch portion size
+garlic_bread,limit,avoid,limit,gluten,NICE NG28 – refined carb spikes BG,AHA – high sodium + saturated fat (butter),KDOQI 2020 – refined flour + moderate phosphate,White bread + butter + salt
+greek_salad,recommend,recommend,recommend,none,Diabetes UK – low GI; fibre,AHA/DASH – potassium + healthy fats (olives),KDOQI 2020 – olives/feta moderate; small feta,Feta moderate sodium; excellent salad
+grilled_cheese_sandwich,limit,avoid,limit,gluten,NICE NG28 – refined bread raises BG,AHA – very high sodium + saturated fat (cheese),KDOQI 2020 – cheese very high phosphate + sodium,High sodium/fat sandwich
+grilled_salmon,recommend,recommend,recommend,fish,Diabetes UK – omega-3 improves insulin sensitivity,AHA/DASH – omega-3 lowers BP; potassium rich,KDOQI 2020 – high potassium but benefits generally outweigh; portion control in stage 4+,Oily fish; excellent
+guacamole,recommend,recommend,limit,none,Diabetes UK – healthy fat; low GI,AHA – monounsaturated fat lowers BP,KDOQI 2020 – avocado very high potassium; restrict in CKD,Avocado high K
+gyoza,limit,limit,limit,gluten,Diabetes UK – refined wrapper raises BG; filling variable,NICE NG136 – soy/salt dipping sauce,KDOQI 2020 – potassium variable; soy sauce sodium,Japanese dumplings
+hamburger,limit,avoid,limit,gluten,NICE NG28 – refined bun spikes BG; high fat patty,AHA – very high sodium + saturated fat,KDOQI 2020 – processed meat high phosphate additive; bun refined,Classic fast food
+hot_and_sour_soup,limit,avoid,limit,none,Diabetes UK – moderate; portion control,AHA / NICE NG136 – very high sodium,KDOQI 2020 – tofu/mushroom moderate K; high sodium,Chinese soup very high sodium
+hot_dog,avoid,avoid,limit,gluten,NICE NG28 – processed meat + refined bun,AHA – very high sodium processed meat,KDOQI 2020 – very high phosphate additive in processed meat,Processed meat worst category
+huevos_rancheros,limit,limit,limit,none,Diabetes UK – tortilla + beans moderate; egg OK,NICE NG136 – sodium in salsa + tortilla,KDOQI 2020 – beans + tomato moderate-high K,Mexican egg dish
+hummus,recommend,recommend,limit,none,Diabetes UK – legume fibre; low GI,AHA/DASH – potassium + magnesium,KDOQI 2020 – chickpeas moderate-high phosphate + potassium,Great for diabetes/BP; watch CKD
+ice_cream,avoid,limit,avoid,none,NICE NG28 – high sugar + fat,AHA – high sugar + saturated fat,KDOQI 2020 – dairy very high phosphate + potassium,High dairy + sugar
+lobster_bisque,limit,avoid,limit,shellfish,Diabetes UK – cream raises saturated fat,NICE NG136 – very high sodium + fat,KDOQI 2020 – high sodium; lobster moderate K/P,Shellfish allergy flag; high sodium
+macaroni_and_cheese,avoid,avoid,avoid,gluten,NICE NG28 – refined pasta + cheese very high carb/fat,AHA – very high sodium + saturated fat,KDOQI 2020 – extremely high phosphate (dairy + processed cheese),Worst across all conditions
+miso_soup,limit,avoid,recommend,none,Diabetes UK – low carb; watch sodium,AHA / NICE NG136 – miso extremely high sodium,KDOQI 2020 – tofu low phosphate; miso high sodium but small volume,Fermented soy paste; very high Na
+nachos,avoid,avoid,avoid,gluten,NICE NG28 – very high GI; chips + cheese + sour cream,AHA – very high sodium + saturated fat,KDOQI 2020 – very high potassium (tomato/beans) + phosphate (cheese),Party food; very poor across all
+omelette,recommend,recommend,recommend,none,Diabetes UK – high protein; low carb; low GI,AHA – eggs moderate; watch added salt/cheese,KDOQI 2020 – egg moderate phosphate; avoid processed cheese filling,Plain omelette excellent
+onion_rings,avoid,avoid,limit,gluten,NICE NG28 – deep-fried + batter high GI,AHA – fried + high sodium,KDOQI 2020 – onions moderate K; batter adds phosphate,Deep-fried
+oysters,recommend,recommend,recommend,shellfish,Diabetes UK – very low carb; zinc rich,AHA – omega-3; low sodium,KDOQI 2020 – low potassium/phosphate; zinc beneficial,Excellent seafood; shellfish allergy flag
+pad_thai,limit,limit,limit,none,Diabetes UK – rice noodle moderate GI; portion control,NICE NG136 – fish sauce very high sodium,KDOQI 2020 – moderate K; peanuts add phosphate,Thai noodle dish; sodium key
+paella,recommend,limit,limit,shellfish,Diabetes UK – saffron rice moderate GI; lean protein,NICE NG136 – sodium from stock + chorizo,KDOQI 2020 – shellfish + rice moderate K/P; chorizo adds phosphate,Spanish rice dish
+pancakes,limit,limit,limit,gluten,NICE NG28 – moderate GI refined flour; syrup spikes,AHA – syrup/butter high sugar + fat,KDOQI 2020 – dairy + refined flour moderate phosphate,Without syrup is better
+peking_duck,limit,limit,limit,gluten,Diabetes UK – duck skin very high fat; pancake refined carb,NICE NG136 – hoisin sauce very high sodium,KDOQI 2020 – moderate phosphate; sodium from sauce,Hoisin sauce very high Na
+pho,recommend,limit,limit,none,Diabetes UK – rice noodle moderate; broth lean,NICE NG136 – broth very high sodium,KDOQI 2020 – broth sodium; star anise/herbs low K,Vietnamese soup; sodium in broth
+pizza,limit,avoid,avoid,gluten,NICE NG28 – refined dough moderate-high GI; cheese raises fat,AHA – very high sodium (cheese + processed toppings),KDOQI 2020 – extremely high phosphate (cheese + processed meat) + sodium,Processed cheese/meat dominant
+pork_chop,recommend,limit,limit,none,Diabetes UK – lean protein; low GI,NICE NG136 – watch sodium in marinade,KDOQI 2020 – moderate phosphate; moderate potassium; limit portion,Lean pork; protein quality good
+poutine,avoid,avoid,avoid,none,NICE NG28 – fries + cheese curds + gravy very high carb/fat,AHA – extremely high sodium + saturated fat,KDOQI 2020 – extremely high potassium (fries) + phosphate (cheese),Worst combination
+prime_rib,limit,limit,limit,none,Diabetes UK – high fat cut; saturated fat,NICE NG136 – sodium in au jus; high fat,KDOQI 2020 – high protein; moderate potassium,Fatty red meat
+pulled_pork_sandwich,limit,avoid,limit,gluten,NICE NG28 – refined bun + BBQ sauce sugar,AHA – very high sodium in BBQ sauce + processed pork,KDOQI 2020 – processed pork high phosphate additive,BBQ sodium very high
+ramen,limit,avoid,limit,none,Diabetes UK – noodles moderate GI; broth lean; watch sodium,AHA / NICE NG136 – broth extremely high sodium,KDOQI 2020 – high sodium broth; egg/noodle moderate K/P,Japanese noodle soup; sodium extreme
+ravioli,limit,limit,limit,gluten,NICE NG28 – pasta moderate GI; filling variable,NICE NG136 – cheese filling moderate sodium,KDOQI 2020 – cheese filling phosphate,Filled pasta
+red_velvet_cake,avoid,limit,avoid,gluten,NICE NG28 – very high sugar + refined flour,AHA – high sugar + saturated fat frosting,KDOQI 2020 – cream cheese frosting very high phosphate,High dairy+sugar dessert
+risotto,limit,limit,limit,none,Diabetes UK – arborio rice high GI; Parmesan adds fat,NICE NG136 – sodium from stock + cheese,KDOQI 2020 – high phosphate (Parmesan) + moderate K,Arborio rice high GI
+samosa,limit,limit,limit,gluten,NICE NG28 – fried pastry raises BG,NICE NG136 – sodium in filling + pastry,KDOQI 2020 – potato + peas moderate K; fried pastry adds P,Fried pastry
+sashimi,recommend,recommend,recommend,fish,Diabetes UK – pure lean protein; zero carb,AHA – omega-3; minimal sodium,KDOQI 2020 – very low potassium/phosphate; excellent,Raw fish; best option for all
+scallops,recommend,recommend,recommend,shellfish,Diabetes UK – very lean seafood; low GI,AHA – omega-3; low sodium,KDOQI 2020 – low potassium/phosphate,Lean shellfish; excellent
+shrimp_and_grits,limit,limit,limit,shellfish,Diabetes UK – grits moderate GI; shrimp lean,NICE NG136 – sodium from butter/cheese,KDOQI 2020 – moderate phosphate (dairy in grits),Southern dish; moderate
+spaghetti_bolognese,limit,limit,limit,gluten,Diabetes UK – pasta moderate GI; red meat moderate fat,NICE NG136 – sodium in canned tomato + meat sauce,KDOQI 2020 – moderate potassium (tomato) + phosphate (meat/pasta),Classic pasta; moderate on all
+spaghetti_carbonara,limit,avoid,avoid,gluten,NICE NG28 – pasta moderate + pancetta fat/sodium,AHA – very high sodium + saturated fat (pancetta+cheese),KDOQI 2020 – very high phosphate (egg+cheese+pancetta),Rich egg+cheese+pancetta
+spring_rolls,limit,limit,limit,gluten,Diabetes UK – fried wrapper raises BG,NICE NG136 – dipping sauce sodium,KDOQI 2020 – vegetable filling moderate K,Fried spring rolls
+steak,recommend,limit,limit,none,Diabetes UK – lean protein; low GI,NICE NG136 – watch sodium in sauces; lean is OK,KDOQI 2020 – moderate protein; moderate potassium; red meat phosphate,Lean cut; portion control
+strawberry_shortcake,limit,limit,limit,gluten,NICE NG28 – moderate; biscuit + cream raises carbs/fat,AHA – added sugar + whipped cream,KDOQI 2020 – strawberry moderate K; dairy moderate P,Moderate dessert
+sushi,recommend,limit,recommend,fish,Diabetes UK – vinegar rice moderate GI; seafood excellent,NICE NG136 – soy sauce very high sodium,KDOQI 2020 – very low K/P; sodium from soy sauce,Watch soy sauce portion
+tacos,limit,limit,limit,gluten,Diabetes UK – corn tortilla moderate GI better than flour,NICE NG136 – sodium from salsa/cheese,KDOQI 2020 – moderate K (beans/tomato); corn lower GI,Corn > flour tortilla
+tiramisu,avoid,limit,avoid,none,NICE NG28 – very high sugar + mascarpone fat,AHA – high sugar + saturated fat,KDOQI 2020 – very high phosphate (dairy + coffee/chocolate),Mascarpone dessert
+tuna_tartare,recommend,recommend,recommend,fish,Diabetes UK – lean protein; zero carb; omega-3,AHA – omega-3; potassium,KDOQI 2020 – very low potassium; lean,Raw tuna; excellent option
+waffles,limit,limit,limit,gluten,NICE NG28 – refined flour moderate GI; syrup spikes,AHA – syrup/butter high sugar,KDOQI 2020 – dairy + refined flour moderate phosphate,Without syrup moderately better

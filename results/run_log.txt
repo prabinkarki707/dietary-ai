@@ -1,0 +1,21 @@
+2026-05-24 20:18:09,636 INFO Loaded 88 foods from gold_standard matrix
+2026-05-24 20:18:20,055 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:18:20,075 INFO [1/1440] zero_shot | P01 | sashimi | run1 → recommend (gold=recommend) 10438ms
+2026-05-24 20:18:28,892 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:18:28,894 INFO [2/1440] zero_shot | P01 | greek_salad | run1 → recommend (gold=recommend) 8819ms
+2026-05-24 20:18:37,636 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:18:37,638 INFO [3/1440] zero_shot | P01 | grilled_salmon | run1 → recommend (gold=recommend) 8743ms
+2026-05-24 20:18:46,514 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:18:46,515 INFO [4/1440] zero_shot | P01 | edamame | run1 → recommend (gold=recommend) 8876ms
+2026-05-24 20:18:55,749 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:18:55,750 INFO [5/1440] zero_shot | P01 | omelette | run1 → recommend (gold=recommend) 9234ms
+2026-05-24 20:19:05,542 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:19:05,545 INFO [6/1440] zero_shot | P01 | chicken_curry | run1 → limit (gold=recommend) 9794ms
+2026-05-24 20:19:15,416 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:19:15,418 INFO [7/1440] zero_shot | P01 | pho | run1 → limit (gold=recommend) 9872ms
+2026-05-24 20:19:25,724 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:19:25,726 INFO [8/1440] zero_shot | P01 | caprese_salad | run1 → recommend (gold=recommend) 10306ms
+2026-05-24 20:19:35,652 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:19:35,655 INFO [9/1440] zero_shot | P01 | tuna_tartare | run1 → recommend (gold=recommend) 9928ms
+2026-05-24 20:19:45,400 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 20:19:45,402 INFO [10/1440] zero_shot | P01 | french_fries | run1 → avoid (gold=avoid) 9746ms

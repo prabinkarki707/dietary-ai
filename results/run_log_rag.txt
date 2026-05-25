@@ -1,0 +1,750 @@
+2026-05-24 22:07:49,597 INFO Resuming — 1080 rows already written
+2026-05-24 22:07:49,598 INFO Loaded 88 foods from gold_standard matrix
+/Users/prabinkarki/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/prabinkarki/Library/Python/3.9/lib/python/site-packages/google/api_core/_python_version_support.py:242: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+/Users/prabinkarki/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/prabinkarki/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+2026-05-24 22:07:59,750 INFO Loading faiss.
+2026-05-24 22:08:00,346 INFO Successfully loaded faiss.
+2026-05-24 22:08:00,351 INFO Indexing 13 guideline chunks with sentence-transformers...
+2026-05-24 22:08:00,460 INFO Use pytorch device_name: mps
+2026-05-24 22:08:00,460 INFO Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]
+2026-05-24 22:08:16,240 INFO FAISS index built with 13 vectors (dim=384)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+2026-05-24 22:08:21,982 INFO [1081/1440] rag_grounded | P01 | sashimi | run1 → limit (gold=recommend) 4259ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s]
+2026-05-24 22:08:24,556 INFO [1082/1440] rag_grounded | P01 | greek_salad | run1 → limit (gold=recommend) 2053ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.56it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.56it/s]
+2026-05-24 22:08:26,311 INFO [1083/1440] rag_grounded | P01 | grilled_salmon | run1 → recommend (gold=recommend) 1361ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.53it/s]
+2026-05-24 22:08:28,398 INFO [1084/1440] rag_grounded | P01 | edamame | run1 → limit (gold=recommend) 2039ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.11it/s]
+2026-05-24 22:08:31,778 INFO [1085/1440] rag_grounded | P01 | omelette | run1 → limit (gold=recommend) 3336ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.86it/s]
+2026-05-24 22:08:34,719 INFO [1086/1440] rag_grounded | P01 | chicken_curry | run1 → limit (gold=recommend) 2898ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.89it/s]
+2026-05-24 22:08:37,777 INFO [1087/1440] rag_grounded | P01 | pho | run1 → limit (gold=recommend) 3015ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.31it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.30it/s]
+2026-05-24 22:08:40,495 INFO [1088/1440] rag_grounded | P01 | caprese_salad | run1 → limit (gold=recommend) 2280ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.48it/s]
+2026-05-24 22:08:43,275 INFO [1089/1440] rag_grounded | P01 | tuna_tartare | run1 → limit (gold=recommend) 2738ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.08it/s]
+2026-05-24 22:08:45,455 INFO [1090/1440] rag_grounded | P01 | french_fries | run1 → avoid (gold=avoid) 2136ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.65it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
+2026-05-24 22:08:48,021 INFO [1091/1440] rag_grounded | P01 | pizza | run1 → limit (gold=limit) 1950ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.07it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.07it/s]
+2026-05-24 22:08:50,177 INFO [1092/1440] rag_grounded | P01 | macaroni_and_cheese | run1 → avoid (gold=avoid) 1825ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.15it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.14it/s]
+2026-05-24 22:08:52,012 INFO [1093/1440] rag_grounded | P01 | nachos | run1 → avoid (gold=avoid) 1710ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.24it/s]
+2026-05-24 22:08:54,129 INFO [1094/1440] rag_grounded | P01 | hot_dog | run1 → avoid (gold=avoid) 2077ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.19it/s]
+2026-05-24 22:08:56,542 INFO [1095/1440] rag_grounded | P01 | apple_pie | run1 → avoid (gold=limit) 2355ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.33it/s]
+2026-05-24 22:08:58,914 INFO [1096/1440] rag_grounded | P01 | ice_cream | run1 → avoid (gold=avoid) 2307ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.23it/s]
+2026-05-24 22:09:01,284 INFO [1097/1440] rag_grounded | P01 | chocolate_cake | run1 → avoid (gold=avoid) 2335ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.34it/s]
+2026-05-24 22:09:04,082 INFO [1098/1440] rag_grounded | P01 | hummus | run1 → limit (gold=recommend) 2741ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.07it/s]
+2026-05-24 22:09:07,190 WARNING Could not parse JSON from LLM output; used keyword fallback. Raw: {
+  "verdict": "limit",
+  "reason": "Beet salad is a low-GI food, but it is high in potassium (beets are one of the richest sources of potassium). Given that you have an eGFR of 82 mL/min/1.73m² and e
+2026-05-24 22:09:07,191 INFO [1099/1440] rag_grounded | P01 | beet_salad | run1 → limit (gold=recommend) 3062ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.90it/s]
+2026-05-24 22:09:09,434 INFO [1100/1440] rag_grounded | P01 | guacamole | run1 → limit (gold=recommend) 2206ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.23it/s]
+2026-05-24 22:09:11,405 INFO [1101/1440] rag_grounded | P01 | steak | run1 → limit (gold=recommend) 1916ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.90it/s]
+2026-05-24 22:09:14,055 INFO [1102/1440] rag_grounded | P01 | hamburger | run1 → limit (gold=limit) 2605ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.37it/s]
+2026-05-24 22:09:15,766 INFO [1103/1440] rag_grounded | P01 | ramen | run1 → limit (gold=limit) 1657ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.36it/s]
+2026-05-24 22:09:17,248 INFO [1104/1440] rag_grounded | P01 | spaghetti_bolognese | run1 → limit (gold=limit) 1436ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.54it/s]
+2026-05-24 22:09:19,984 INFO [1105/1440] rag_grounded | P02 | sashimi | run1 → limit (gold=recommend) 2692ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.74it/s]
+2026-05-24 22:09:22,615 INFO [1106/1440] rag_grounded | P02 | greek_salad | run1 → limit (gold=recommend) 2586ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.66it/s]
+2026-05-24 22:09:24,885 INFO [1107/1440] rag_grounded | P02 | grilled_salmon | run1 → recommend (gold=recommend) 2228ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.66it/s]
+2026-05-24 22:09:26,722 INFO [1108/1440] rag_grounded | P02 | edamame | run1 → limit (gold=recommend) 1796ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.50it/s]
+2026-05-24 22:09:28,303 INFO [1109/1440] rag_grounded | P02 | omelette | run1 → limit (gold=recommend) 1540ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.18it/s]
+2026-05-24 22:09:29,829 INFO [1110/1440] rag_grounded | P02 | chicken_curry | run1 → limit (gold=limit) 1486ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.91it/s]
+2026-05-24 22:09:32,062 INFO [1111/1440] rag_grounded | P02 | pho | run1 → limit (gold=limit) 2197ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.44it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.43it/s]
+2026-05-24 22:09:34,668 INFO [1112/1440] rag_grounded | P02 | caprese_salad | run1 → limit (gold=recommend) 2191ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 32.05it/s]
+2026-05-24 22:09:37,464 INFO [1113/1440] rag_grounded | P02 | tuna_tartare | run1 → limit (gold=recommend) 2761ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.30it/s]
+2026-05-24 22:09:38,518 INFO [1114/1440] rag_grounded | P02 | french_fries | run1 → avoid (gold=avoid) 1014ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.83it/s]
+2026-05-24 22:09:40,153 INFO [1115/1440] rag_grounded | P02 | pizza | run1 → limit (gold=avoid) 1573ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.54it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.54it/s]
+2026-05-24 22:09:41,805 INFO [1116/1440] rag_grounded | P02 | macaroni_and_cheese | run1 → limit (gold=avoid) 1254ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 14.78it/s]
+2026-05-24 22:09:43,067 INFO [1117/1440] rag_grounded | P02 | nachos | run1 → avoid (gold=avoid) 1189ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.78it/s]
+2026-05-24 22:09:45,055 INFO [1118/1440] rag_grounded | P02 | hot_dog | run1 → avoid (gold=avoid) 1927ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.59it/s]
+2026-05-24 22:09:47,113 INFO [1119/1440] rag_grounded | P02 | apple_pie | run1 → avoid (gold=limit) 2012ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.91it/s]
+2026-05-24 22:09:48,417 INFO [1120/1440] rag_grounded | P02 | ice_cream | run1 → limit (gold=limit) 1215ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.76it/s]
+2026-05-24 22:09:50,103 INFO [1121/1440] rag_grounded | P02 | chocolate_cake | run1 → avoid (gold=limit) 1640ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.87it/s]
+2026-05-24 22:09:53,110 INFO [1122/1440] rag_grounded | P02 | hummus | run1 → limit (gold=recommend) 2960ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.38it/s]
+2026-05-24 22:09:55,527 INFO [1123/1440] rag_grounded | P02 | beet_salad | run1 → limit (gold=recommend) 2373ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.27it/s]
+2026-05-24 22:09:57,893 INFO [1124/1440] rag_grounded | P02 | guacamole | run1 → limit (gold=recommend) 2320ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.37it/s]
+2026-05-24 22:09:59,538 INFO [1125/1440] rag_grounded | P02 | steak | run1 → limit (gold=limit) 1606ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.36it/s]
+2026-05-24 22:10:00,695 INFO [1126/1440] rag_grounded | P02 | hamburger | run1 → limit (gold=avoid) 1115ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.59it/s]
+2026-05-24 22:10:02,182 INFO [1127/1440] rag_grounded | P02 | ramen | run1 → limit (gold=avoid) 1433ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.65it/s]
+2026-05-24 22:10:03,684 INFO [1128/1440] rag_grounded | P02 | spaghetti_bolognese | run1 → limit (gold=limit) 1461ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.80it/s]
+2026-05-24 22:10:06,323 INFO [1129/1440] rag_grounded | P03 | sashimi | run1 → limit (gold=recommend) 2598ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.18it/s]
+2026-05-24 22:10:08,505 INFO [1130/1440] rag_grounded | P03 | greek_salad | run1 → limit (gold=recommend) 2134ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.96it/s]
+2026-05-24 22:10:10,206 INFO [1131/1440] rag_grounded | P03 | grilled_salmon | run1 → recommend (gold=recommend) 1655ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.51it/s]
+2026-05-24 22:10:12,164 INFO [1132/1440] rag_grounded | P03 | edamame | run1 → limit (gold=recommend) 1913ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.95it/s]
+2026-05-24 22:10:14,019 INFO [1133/1440] rag_grounded | P03 | omelette | run1 → limit (gold=recommend) 1813ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.40it/s]
+2026-05-24 22:10:16,387 INFO [1134/1440] rag_grounded | P03 | chicken_curry | run1 → limit (gold=limit) 2323ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.90it/s]
+2026-05-24 22:10:19,099 INFO [1135/1440] rag_grounded | P03 | pho | run1 → limit (gold=limit) 2630ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.08it/s]
+2026-05-24 22:10:21,683 INFO [1136/1440] rag_grounded | P03 | caprese_salad | run1 → limit (gold=recommend) 2542ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.94it/s]
+2026-05-24 22:10:24,289 INFO [1137/1440] rag_grounded | P03 | tuna_tartare | run1 → limit (gold=recommend) 2565ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.60it/s]
+2026-05-24 22:10:25,798 INFO [1138/1440] rag_grounded | P03 | french_fries | run1 → limit (gold=limit) 1464ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.12it/s]
+2026-05-24 22:10:27,808 INFO [1139/1440] rag_grounded | P03 | pizza | run1 → limit (gold=avoid) 1970ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.61it/s]
+2026-05-24 22:10:29,999 INFO [1140/1440] rag_grounded | P03 | macaroni_and_cheese | run1 → limit (gold=avoid) 2145ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.77it/s]
+2026-05-24 22:10:31,411 INFO [1141/1440] rag_grounded | P03 | nachos | run1 → limit (gold=avoid) 1369ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.79it/s]
+2026-05-24 22:10:33,649 INFO [1142/1440] rag_grounded | P03 | hot_dog | run1 → limit (gold=limit) 2197ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.46it/s]
+2026-05-24 22:10:35,719 INFO [1143/1440] rag_grounded | P03 | apple_pie | run1 → limit (gold=limit) 2030ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.73it/s]
+2026-05-24 22:10:37,421 INFO [1144/1440] rag_grounded | P03 | ice_cream | run1 → limit (gold=avoid) 1655ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.92it/s]
+2026-05-24 22:10:39,528 INFO [1145/1440] rag_grounded | P03 | chocolate_cake | run1 → avoid (gold=avoid) 2064ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.31it/s]
+2026-05-24 22:10:41,978 INFO [1146/1440] rag_grounded | P03 | hummus | run1 → limit (gold=limit) 2392ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.32it/s]
+2026-05-24 22:10:43,784 INFO [1147/1440] rag_grounded | P03 | beet_salad | run1 → limit (gold=limit) 1763ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.75it/s]
+2026-05-24 22:10:45,736 INFO [1148/1440] rag_grounded | P03 | guacamole | run1 → avoid (gold=limit) 1909ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.93it/s]
+2026-05-24 22:10:48,253 INFO [1149/1440] rag_grounded | P03 | steak | run1 → limit (gold=limit) 2478ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.98it/s]
+2026-05-24 22:10:49,707 INFO [1150/1440] rag_grounded | P03 | hamburger | run1 → limit (gold=limit) 1372ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.51it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.50it/s]
+2026-05-24 22:10:51,749 INFO [1151/1440] rag_grounded | P03 | ramen | run1 → limit (gold=limit) 1886ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 19.60it/s]
+2026-05-24 22:10:53,981 INFO [1152/1440] rag_grounded | P03 | spaghetti_bolognese | run1 → limit (gold=limit) 2176ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.66it/s]
+2026-05-24 22:10:56,642 INFO [1153/1440] rag_grounded | P04 | sashimi | run1 → limit (gold=recommend) 2618ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.22it/s]
+2026-05-24 22:10:59,876 INFO [1154/1440] rag_grounded | P04 | greek_salad | run1 → limit (gold=recommend) 3192ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.77it/s]
+2026-05-24 22:11:01,816 INFO [1155/1440] rag_grounded | P04 | grilled_salmon | run1 → recommend (gold=recommend) 1894ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.18it/s]
+2026-05-24 22:11:03,849 INFO [1156/1440] rag_grounded | P04 | edamame | run1 → limit (gold=recommend) 1991ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.24it/s]
+2026-05-24 22:11:05,948 INFO [1157/1440] rag_grounded | P04 | omelette | run1 → limit (gold=recommend) 2059ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.06it/s]
+2026-05-24 22:11:08,481 INFO [1158/1440] rag_grounded | P04 | chicken_curry | run1 → limit (gold=limit) 2492ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.80it/s]
+2026-05-24 22:11:10,869 INFO [1159/1440] rag_grounded | P04 | pho | run1 → limit (gold=limit) 2345ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.66it/s]
+2026-05-24 22:11:13,524 INFO [1160/1440] rag_grounded | P04 | caprese_salad | run1 → limit (gold=recommend) 2611ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.52it/s]
+2026-05-24 22:11:16,110 INFO [1161/1440] rag_grounded | P04 | tuna_tartare | run1 → limit (gold=recommend) 2542ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.69it/s]
+2026-05-24 22:11:18,307 INFO [1162/1440] rag_grounded | P04 | french_fries | run1 → avoid (gold=avoid) 2157ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.42it/s]
+2026-05-24 22:11:20,603 INFO [1163/1440] rag_grounded | P04 | pizza | run1 → limit (gold=avoid) 2242ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.04it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.04it/s]
+2026-05-24 22:11:23,645 INFO [1164/1440] rag_grounded | P04 | macaroni_and_cheese | run1 → limit (gold=avoid) 2839ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.17it/s]
+2026-05-24 22:11:25,805 INFO [1165/1440] rag_grounded | P04 | nachos | run1 → avoid (gold=avoid) 2119ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.90it/s]
+2026-05-24 22:11:27,500 INFO [1166/1440] rag_grounded | P04 | hot_dog | run1 → avoid (gold=avoid) 1650ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.67it/s]
+2026-05-24 22:11:30,334 INFO [1167/1440] rag_grounded | P04 | apple_pie | run1 → avoid (gold=limit) 2785ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.29it/s]
+2026-05-24 22:11:32,363 INFO [1168/1440] rag_grounded | P04 | ice_cream | run1 → avoid (gold=avoid) 1986ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.06it/s]
+2026-05-24 22:11:34,739 INFO [1169/1440] rag_grounded | P04 | chocolate_cake | run1 → avoid (gold=avoid) 2332ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 31.80it/s]
+2026-05-24 22:11:36,894 INFO [1170/1440] rag_grounded | P04 | hummus | run1 → limit (gold=recommend) 2122ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.56it/s]
+2026-05-24 22:11:39,259 INFO [1171/1440] rag_grounded | P04 | beet_salad | run1 → limit (gold=recommend) 2323ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.56it/s]
+2026-05-24 22:11:41,635 INFO [1172/1440] rag_grounded | P04 | guacamole | run1 → limit (gold=recommend) 2331ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.33it/s]
+2026-05-24 22:11:43,778 INFO [1173/1440] rag_grounded | P04 | steak | run1 → limit (gold=limit) 2105ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.35it/s]
+2026-05-24 22:11:45,924 INFO [1174/1440] rag_grounded | P04 | hamburger | run1 → limit (gold=avoid) 2052ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.16it/s]
+2026-05-24 22:11:48,095 INFO [1175/1440] rag_grounded | P04 | ramen | run1 → limit (gold=avoid) 2128ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.06it/s]
+2026-05-24 22:11:51,585 INFO [1176/1440] rag_grounded | P04 | spaghetti_bolognese | run1 → limit (gold=limit) 3440ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.82it/s]
+2026-05-24 22:11:54,440 INFO [1177/1440] rag_grounded | P05 | sashimi | run1 → limit (gold=recommend) 2796ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.08it/s]
+2026-05-24 22:11:56,784 INFO [1178/1440] rag_grounded | P05 | greek_salad | run1 → limit (gold=recommend) 2298ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.02it/s]
+2026-05-24 22:11:58,912 INFO [1179/1440] rag_grounded | P05 | grilled_salmon | run1 → recommend (gold=recommend) 2087ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.14it/s]
+2026-05-24 22:12:01,397 INFO [1180/1440] rag_grounded | P05 | edamame | run1 → limit (gold=recommend) 2438ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.42it/s]
+2026-05-24 22:12:04,358 INFO [1181/1440] rag_grounded | P05 | omelette | run1 → limit (gold=recommend) 2917ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 21.95it/s]
+2026-05-24 22:12:06,749 INFO [1182/1440] rag_grounded | P05 | chicken_curry | run1 → limit (gold=limit) 2341ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.09it/s]
+2026-05-24 22:12:08,987 INFO [1183/1440] rag_grounded | P05 | pho | run1 → limit (gold=limit) 2197ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.18it/s]
+2026-05-24 22:12:11,311 INFO [1184/1440] rag_grounded | P05 | caprese_salad | run1 → limit (gold=recommend) 2280ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.28it/s]
+2026-05-24 22:12:13,683 INFO [1185/1440] rag_grounded | P05 | tuna_tartare | run1 → limit (gold=recommend) 2325ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.83it/s]
+2026-05-24 22:12:16,357 INFO [1186/1440] rag_grounded | P05 | french_fries | run1 → avoid (gold=avoid) 2634ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.19it/s]
+2026-05-24 22:12:19,911 INFO [1187/1440] rag_grounded | P05 | pizza | run1 → avoid (gold=avoid) 3489ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.35it/s]
+2026-05-24 22:12:21,592 INFO [1188/1440] rag_grounded | P05 | macaroni_and_cheese | run1 → avoid (gold=avoid) 1640ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.13it/s]
+2026-05-24 22:12:24,380 INFO [1189/1440] rag_grounded | P05 | nachos | run1 → avoid (gold=avoid) 2745ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.70it/s]
+2026-05-24 22:12:26,863 INFO [1190/1440] rag_grounded | P05 | hot_dog | run1 → avoid (gold=avoid) 2442ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.16it/s]
+2026-05-24 22:12:28,763 INFO [1191/1440] rag_grounded | P05 | apple_pie | run1 → avoid (gold=limit) 1857ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.79it/s]
+2026-05-24 22:12:31,374 INFO [1192/1440] rag_grounded | P05 | ice_cream | run1 → avoid (gold=avoid) 2570ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.55it/s]
+2026-05-24 22:12:33,422 INFO [1193/1440] rag_grounded | P05 | chocolate_cake | run1 → avoid (gold=avoid) 2004ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.76it/s]
+2026-05-24 22:12:35,637 INFO [1194/1440] rag_grounded | P05 | hummus | run1 → limit (gold=limit) 2173ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 32.09it/s]
+2026-05-24 22:12:38,376 INFO [1195/1440] rag_grounded | P05 | beet_salad | run1 → limit (gold=limit) 2706ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.82it/s]
+2026-05-24 22:12:40,854 INFO [1196/1440] rag_grounded | P05 | guacamole | run1 → limit (gold=limit) 2433ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.22it/s]
+2026-05-24 22:12:43,389 INFO [1197/1440] rag_grounded | P05 | steak | run1 → limit (gold=limit) 2494ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.26it/s]
+2026-05-24 22:12:45,852 INFO [1198/1440] rag_grounded | P05 | hamburger | run1 → limit (gold=limit) 2419ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.64it/s]
+2026-05-24 22:12:47,476 INFO [1199/1440] rag_grounded | P05 | ramen | run1 → avoid (gold=limit) 1582ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.63it/s]
+2026-05-24 22:12:49,985 INFO [1200/1440] rag_grounded | P05 | spaghetti_bolognese | run1 → limit (gold=limit) 2468ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.27it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.26it/s]
+2026-05-24 22:12:52,898 INFO [1201/1440] rag_grounded | P06 | sashimi | run1 → limit (gold=recommend) 2789ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.53it/s]
+2026-05-24 22:12:55,167 INFO [1202/1440] rag_grounded | P06 | greek_salad | run1 → limit (gold=recommend) 2228ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.83it/s]
+2026-05-24 22:12:57,268 INFO [1203/1440] rag_grounded | P06 | grilled_salmon | run1 → recommend (gold=recommend) 2058ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.12it/s]
+2026-05-24 22:12:59,011 INFO [1204/1440] rag_grounded | P06 | edamame | run1 → limit (gold=recommend) 1700ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.73it/s]
+2026-05-24 22:13:01,340 INFO [1205/1440] rag_grounded | P06 | omelette | run1 → limit (gold=recommend) 2287ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.03it/s]
+2026-05-24 22:13:03,134 INFO [1206/1440] rag_grounded | P06 | chicken_curry | run1 → limit (gold=limit) 1750ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.65it/s]
+2026-05-24 22:13:05,120 INFO [1207/1440] rag_grounded | P06 | pho | run1 → limit (gold=limit) 1946ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.43it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.42it/s]
+2026-05-24 22:13:08,251 INFO [1208/1440] rag_grounded | P06 | caprese_salad | run1 → limit (gold=recommend) 2714ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.34it/s]
+2026-05-24 22:13:11,005 INFO [1209/1440] rag_grounded | P06 | tuna_tartare | run1 → limit (gold=recommend) 2709ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.22it/s]
+2026-05-24 22:13:12,682 INFO [1210/1440] rag_grounded | P06 | french_fries | run1 → avoid (gold=avoid) 1634ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.51it/s]
+2026-05-24 22:13:15,145 INFO [1211/1440] rag_grounded | P06 | pizza | run1 → limit (gold=avoid) 2425ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.07it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.06it/s]
+2026-05-24 22:13:16,871 INFO [1212/1440] rag_grounded | P06 | macaroni_and_cheese | run1 → limit (gold=avoid) 1523ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.14it/s]
+2026-05-24 22:13:18,514 INFO [1213/1440] rag_grounded | P06 | nachos | run1 → avoid (gold=avoid) 1600ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.30it/s]
+2026-05-24 22:13:20,806 INFO [1214/1440] rag_grounded | P06 | hot_dog | run1 → avoid (gold=avoid) 2250ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.42it/s]
+2026-05-24 22:13:22,865 INFO [1215/1440] rag_grounded | P06 | apple_pie | run1 → avoid (gold=limit) 2018ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.18it/s]
+2026-05-24 22:13:24,617 INFO [1216/1440] rag_grounded | P06 | ice_cream | run1 → limit (gold=avoid) 1706ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.40it/s]
+2026-05-24 22:13:26,349 INFO [1217/1440] rag_grounded | P06 | chocolate_cake | run1 → avoid (gold=avoid) 1688ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.44it/s]
+2026-05-24 22:13:28,920 INFO [1218/1440] rag_grounded | P06 | hummus | run1 → limit (gold=limit) 2530ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.44it/s]
+2026-05-24 22:13:31,289 INFO [1219/1440] rag_grounded | P06 | beet_salad | run1 → limit (gold=limit) 2326ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.67it/s]
+2026-05-24 22:13:33,535 INFO [1220/1440] rag_grounded | P06 | guacamole | run1 → limit (gold=limit) 2203ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.11it/s]
+2026-05-24 22:13:34,844 INFO [1221/1440] rag_grounded | P06 | steak | run1 → limit (gold=limit) 1269ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 31.20it/s]
+2026-05-24 22:13:36,865 INFO [1222/1440] rag_grounded | P06 | hamburger | run1 → limit (gold=avoid) 1986ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.95it/s]
+2026-05-24 22:13:38,745 INFO [1223/1440] rag_grounded | P06 | ramen | run1 → limit (gold=avoid) 1838ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.21it/s]
+2026-05-24 22:13:41,130 INFO [1224/1440] rag_grounded | P06 | spaghetti_bolognese | run1 → limit (gold=limit) 2342ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.20it/s]
+2026-05-24 22:13:43,166 INFO [1225/1440] rag_grounded | P07 | sashimi | run1 → limit (gold=recommend) 1994ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.07it/s]
+2026-05-24 22:13:45,759 INFO [1226/1440] rag_grounded | P07 | greek_salad | run1 → limit (gold=recommend) 2550ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.52it/s]
+2026-05-24 22:13:47,835 INFO [1227/1440] rag_grounded | P07 | grilled_salmon | run1 → recommend (gold=recommend) 2033ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.11it/s]
+2026-05-24 22:13:50,814 INFO [1228/1440] rag_grounded | P07 | edamame | run1 → limit (gold=recommend) 2931ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.00it/s]
+2026-05-24 22:13:54,053 INFO [1229/1440] rag_grounded | P07 | omelette | run1 → limit (gold=recommend) 3152ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.12it/s]
+2026-05-24 22:13:56,563 INFO [1230/1440] rag_grounded | P07 | chicken_curry | run1 → limit (gold=limit) 2449ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.86it/s]
+2026-05-24 22:13:58,842 INFO [1231/1440] rag_grounded | P07 | pho | run1 → limit (gold=limit) 2233ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.89it/s]
+2026-05-24 22:14:00,869 INFO [1232/1440] rag_grounded | P07 | caprese_salad | run1 → limit (gold=recommend) 1981ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.63it/s]
+2026-05-24 22:14:03,468 INFO [1233/1440] rag_grounded | P07 | tuna_tartare | run1 → limit (gold=recommend) 2534ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.29it/s]
+2026-05-24 22:14:05,608 INFO [1234/1440] rag_grounded | P07 | french_fries | run1 → avoid (gold=avoid) 2096ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.29it/s]
+2026-05-24 22:14:08,511 INFO [1235/1440] rag_grounded | P07 | pizza | run1 → limit (gold=avoid) 2857ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.45it/s]
+2026-05-24 22:14:10,906 INFO [1236/1440] rag_grounded | P07 | macaroni_and_cheese | run1 → avoid (gold=avoid) 2310ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.58it/s]
+2026-05-24 22:14:13,047 INFO [1237/1440] rag_grounded | P07 | nachos | run1 → avoid (gold=avoid) 2098ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.29it/s]
+2026-05-24 22:14:15,296 INFO [1238/1440] rag_grounded | P07 | hot_dog | run1 → avoid (gold=avoid) 2206ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.04it/s]
+2026-05-24 22:14:17,791 INFO [1239/1440] rag_grounded | P07 | apple_pie | run1 → avoid (gold=limit) 2424ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.24it/s]
+2026-05-24 22:14:19,873 INFO [1240/1440] rag_grounded | P07 | ice_cream | run1 → avoid (gold=avoid) 2037ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 31.98it/s]
+2026-05-24 22:14:22,065 INFO [1241/1440] rag_grounded | P07 | chocolate_cake | run1 → avoid (gold=avoid) 2157ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.89it/s]
+2026-05-24 22:14:24,269 INFO [1242/1440] rag_grounded | P07 | hummus | run1 → limit (gold=limit) 2155ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.06it/s]
+2026-05-24 22:14:26,578 INFO [1243/1440] rag_grounded | P07 | beet_salad | run1 → limit (gold=limit) 2268ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.79it/s]
+2026-05-24 22:14:28,550 INFO [1244/1440] rag_grounded | P07 | guacamole | run1 → limit (gold=limit) 1929ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.84it/s]
+2026-05-24 22:14:31,413 INFO [1245/1440] rag_grounded | P07 | steak | run1 → limit (gold=limit) 2821ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.79it/s]
+2026-05-24 22:14:33,558 INFO [1246/1440] rag_grounded | P07 | hamburger | run1 → limit (gold=avoid) 2102ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.30it/s]
+2026-05-24 22:14:35,676 INFO [1247/1440] rag_grounded | P07 | ramen | run1 → avoid (gold=avoid) 2076ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.88it/s]
+2026-05-24 22:14:38,142 INFO [1248/1440] rag_grounded | P07 | spaghetti_bolognese | run1 → limit (gold=limit) 2429ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.39it/s]
+2026-05-24 22:14:40,491 INFO [1249/1440] rag_grounded | P08 | sashimi | run1 → limit (gold=recommend) 2311ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.81it/s]
+2026-05-24 22:14:43,042 INFO [1250/1440] rag_grounded | P08 | greek_salad | run1 → limit (gold=recommend) 2507ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.40it/s]
+2026-05-24 22:14:45,200 INFO [1251/1440] rag_grounded | P08 | grilled_salmon | run1 → recommend (gold=recommend) 2115ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.83it/s]
+2026-05-24 22:14:47,284 INFO [1252/1440] rag_grounded | P08 | edamame | run1 → limit (gold=recommend) 2041ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.99it/s]
+2026-05-24 22:14:49,969 INFO [1253/1440] rag_grounded | P08 | omelette | run1 → limit (gold=recommend) 2643ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.52it/s]
+2026-05-24 22:14:53,579 INFO [1254/1440] rag_grounded | P08 | chicken_curry | run1 → limit (gold=limit) 3567ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.24it/s]
+2026-05-24 22:14:56,760 INFO [1255/1440] rag_grounded | P08 | pho | run1 → limit (gold=limit) 3116ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.95it/s]
+2026-05-24 22:15:00,161 INFO [1256/1440] rag_grounded | P08 | caprese_salad | run1 → limit (gold=recommend) 3357ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.95it/s]
+2026-05-24 22:15:02,730 INFO [1257/1440] rag_grounded | P08 | tuna_tartare | run1 → limit (gold=recommend) 2516ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.29it/s]
+2026-05-24 22:15:04,931 INFO [1258/1440] rag_grounded | P08 | french_fries | run1 → avoid (gold=avoid) 2161ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.96it/s]
+2026-05-24 22:15:07,271 INFO [1259/1440] rag_grounded | P08 | pizza | run1 → limit (gold=avoid) 2303ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.68it/s]
+2026-05-24 22:15:10,076 INFO [1260/1440] rag_grounded | P08 | macaroni_and_cheese | run1 → limit (gold=avoid) 2766ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.49it/s]
+2026-05-24 22:15:12,128 INFO [1261/1440] rag_grounded | P08 | nachos | run1 → limit (gold=avoid) 2006ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.34it/s]
+2026-05-24 22:15:14,228 INFO [1262/1440] rag_grounded | P08 | hot_dog | run1 → avoid (gold=avoid) 2060ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.65it/s]
+2026-05-24 22:15:16,145 INFO [1263/1440] rag_grounded | P08 | apple_pie | run1 → avoid (gold=limit) 1839ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.35it/s]
+2026-05-24 22:15:18,187 WARNING Could not parse JSON from LLM output; used keyword fallback. Raw: {
+  "verdict": "avoid",
+  "reason": "Ice_cream is an ultra-processed food, which should be avoided due to its high sugar and saturated fat content (NICE NG28 / Diabetes UK – Fat and Protein Recommenda
+2026-05-24 22:15:18,187 INFO [1264/1440] rag_grounded | P08 | ice_cream | run1 → avoid (gold=avoid) 1993ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.52it/s]
+2026-05-24 22:15:21,165 INFO [1265/1440] rag_grounded | P08 | chocolate_cake | run1 → avoid (gold=avoid) 2930ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.82it/s]
+2026-05-24 22:15:23,207 INFO [1266/1440] rag_grounded | P08 | hummus | run1 → limit (gold=limit) 1998ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.85it/s]
+2026-05-24 22:15:25,971 INFO [1267/1440] rag_grounded | P08 | beet_salad | run1 → limit (gold=limit) 2720ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.10it/s]
+2026-05-24 22:15:29,743 INFO [1268/1440] rag_grounded | P08 | guacamole | run1 → limit (gold=limit) 3732ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.81it/s]
+2026-05-24 22:15:31,939 INFO [1269/1440] rag_grounded | P08 | steak | run1 → limit (gold=limit) 2153ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.34it/s]
+2026-05-24 22:15:33,698 INFO [1270/1440] rag_grounded | P08 | hamburger | run1 → limit (gold=avoid) 1717ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.71it/s]
+2026-05-24 22:15:36,938 INFO [1271/1440] rag_grounded | P08 | ramen | run1 → limit (gold=avoid) 3196ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.00it/s]
+2026-05-24 22:15:40,561 INFO [1272/1440] rag_grounded | P08 | spaghetti_bolognese | run1 → limit (gold=limit) 3577ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.17it/s]
+2026-05-24 22:15:42,520 INFO [1273/1440] rag_grounded | P09 | sashimi | run1 → avoid (gold=recommend) 1910ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.92it/s]
+2026-05-24 22:15:45,278 INFO [1274/1440] rag_grounded | P09 | greek_salad | run1 → limit (gold=recommend) 2717ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.26it/s]
+2026-05-24 22:15:46,878 INFO [1275/1440] rag_grounded | P09 | grilled_salmon | run1 → limit (gold=recommend) 1557ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.63it/s]
+2026-05-24 22:15:48,804 INFO [1276/1440] rag_grounded | P09 | edamame | run1 → limit (gold=recommend) 1883ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.40it/s]
+2026-05-24 22:15:51,895 INFO [1277/1440] rag_grounded | P09 | omelette | run1 → limit (gold=recommend) 3045ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.29it/s]
+2026-05-24 22:15:54,595 INFO [1278/1440] rag_grounded | P09 | chicken_curry | run1 → limit (gold=recommend) 2658ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.91it/s]
+2026-05-24 22:15:58,500 INFO [1279/1440] rag_grounded | P09 | pho | run1 → limit (gold=recommend) 3861ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.64it/s]
+2026-05-24 22:16:00,873 INFO [1280/1440] rag_grounded | P09 | caprese_salad | run1 → limit (gold=recommend) 2338ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.92it/s]
+2026-05-24 22:16:02,981 INFO [1281/1440] rag_grounded | P09 | tuna_tartare | run1 → limit (gold=recommend) 2026ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.51it/s]
+2026-05-24 22:16:05,174 INFO [1282/1440] rag_grounded | P09 | french_fries | run1 → avoid (gold=avoid) 2144ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.57it/s]
+2026-05-24 22:16:07,721 INFO [1283/1440] rag_grounded | P09 | pizza | run1 → limit (gold=limit) 2498ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.61it/s]
+2026-05-24 22:16:09,278 INFO [1284/1440] rag_grounded | P09 | macaroni_and_cheese | run1 → avoid (gold=avoid) 1508ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.00it/s]
+2026-05-24 22:16:11,096 INFO [1285/1440] rag_grounded | P09 | nachos | run1 → avoid (gold=avoid) 1722ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.82it/s]
+2026-05-24 22:16:13,901 INFO [1286/1440] rag_grounded | P09 | hot_dog | run1 → avoid (gold=avoid) 2717ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 31.52it/s]
+2026-05-24 22:16:16,571 INFO [1287/1440] rag_grounded | P09 | apple_pie | run1 → avoid (gold=limit) 2636ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.44it/s]
+2026-05-24 22:16:18,891 INFO [1288/1440] rag_grounded | P09 | ice_cream | run1 → avoid (gold=avoid) 2254ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.98it/s]
+2026-05-24 22:16:21,232 INFO [1289/1440] rag_grounded | P09 | chocolate_cake | run1 → avoid (gold=avoid) 2297ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.84it/s]
+2026-05-24 22:16:23,361 INFO [1290/1440] rag_grounded | P09 | hummus | run1 → limit (gold=recommend) 2080ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.53it/s]
+2026-05-24 22:16:26,180 INFO [1291/1440] rag_grounded | P09 | beet_salad | run1 → limit (gold=recommend) 2766ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.49it/s]
+2026-05-24 22:16:28,125 INFO [1292/1440] rag_grounded | P09 | guacamole | run1 → limit (gold=recommend) 1902ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.44it/s]
+2026-05-24 22:16:30,908 INFO [1293/1440] rag_grounded | P09 | steak | run1 → limit (gold=recommend) 2738ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 21.36it/s]
+2026-05-24 22:16:33,186 INFO [1294/1440] rag_grounded | P09 | hamburger | run1 → limit (gold=limit) 2227ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.38it/s]
+2026-05-24 22:16:34,710 INFO [1295/1440] rag_grounded | P09 | ramen | run1 → limit (gold=limit) 1481ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.19it/s]
+2026-05-24 22:16:36,779 INFO [1296/1440] rag_grounded | P09 | spaghetti_bolognese | run1 → limit (gold=limit) 2028ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.08it/s]
+2026-05-24 22:16:39,113 INFO [1297/1440] rag_grounded | P10 | sashimi | run1 → limit (gold=recommend) 2287ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.13it/s]
+2026-05-24 22:16:41,736 INFO [1298/1440] rag_grounded | P10 | greek_salad | run1 → limit (gold=recommend) 2582ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.09it/s]
+2026-05-24 22:16:43,898 INFO [1299/1440] rag_grounded | P10 | grilled_salmon | run1 → recommend (gold=recommend) 2120ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.00it/s]
+2026-05-24 22:16:46,568 INFO [1300/1440] rag_grounded | P10 | edamame | run1 → limit (gold=recommend) 2625ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.51it/s]
+2026-05-24 22:16:49,351 INFO [1301/1440] rag_grounded | P10 | omelette | run1 → limit (gold=recommend) 2740ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.57it/s]
+2026-05-24 22:16:52,735 INFO [1302/1440] rag_grounded | P10 | chicken_curry | run1 → limit (gold=limit) 3338ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.94it/s]
+2026-05-24 22:16:56,165 INFO [1303/1440] rag_grounded | P10 | pho | run1 → limit (gold=limit) 3386ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.43it/s]
+2026-05-24 22:16:58,414 INFO [1304/1440] rag_grounded | P10 | caprese_salad | run1 → limit (gold=recommend) 2207ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.54it/s]
+2026-05-24 22:17:00,967 INFO [1305/1440] rag_grounded | P10 | tuna_tartare | run1 → limit (gold=recommend) 2514ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.09it/s]
+2026-05-24 22:17:03,064 INFO [1306/1440] rag_grounded | P10 | french_fries | run1 → avoid (gold=avoid) 2052ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.26it/s]
+2026-05-24 22:17:05,397 INFO [1307/1440] rag_grounded | P10 | pizza | run1 → limit (gold=avoid) 2285ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.10it/s]
+2026-05-24 22:17:07,567 INFO [1308/1440] rag_grounded | P10 | macaroni_and_cheese | run1 → limit (gold=avoid) 2126ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.70it/s]
+2026-05-24 22:17:10,022 INFO [1309/1440] rag_grounded | P10 | nachos | run1 → limit (gold=avoid) 2413ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.72it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.70it/s]
+2026-05-24 22:17:13,067 INFO [1310/1440] rag_grounded | P10 | hot_dog | run1 → limit (gold=avoid) 2939ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.32it/s]
+2026-05-24 22:17:14,853 INFO [1311/1440] rag_grounded | P10 | apple_pie | run1 → avoid (gold=limit) 1741ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.08it/s]
+2026-05-24 22:17:16,899 WARNING Could not parse JSON from LLM output; used keyword fallback. Raw: {
+  "verdict": "avoid",
+  "reason": "Ice_cream is an ultra-processed food, which should be avoided due to its high sugar and saturated fat content (NICE NG28 / Diabetes UK – Fat and Protein Recommenda
+2026-05-24 22:17:16,899 INFO [1312/1440] rag_grounded | P10 | ice_cream | run1 → avoid (gold=avoid) 2004ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.63it/s]
+2026-05-24 22:17:19,742 INFO [1313/1440] rag_grounded | P10 | chocolate_cake | run1 → avoid (gold=avoid) 2796ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 19.63it/s]
+2026-05-24 22:17:21,922 INFO [1314/1440] rag_grounded | P10 | hummus | run1 → limit (gold=limit) 2124ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.74it/s]
+2026-05-24 22:17:24,114 INFO [1315/1440] rag_grounded | P10 | beet_salad | run1 → limit (gold=limit) 2150ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.68it/s]
+2026-05-24 22:17:26,806 INFO [1316/1440] rag_grounded | P10 | guacamole | run1 → limit (gold=limit) 2642ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.15it/s]
+2026-05-24 22:17:28,899 INFO [1317/1440] rag_grounded | P10 | steak | run1 → limit (gold=limit) 2048ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.46it/s]
+2026-05-24 22:17:30,669 INFO [1318/1440] rag_grounded | P10 | hamburger | run1 → limit (gold=avoid) 1726ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.23it/s]
+2026-05-24 22:17:32,848 INFO [1319/1440] rag_grounded | P10 | ramen | run1 → avoid (gold=avoid) 2132ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.95it/s]
+2026-05-24 22:17:35,192 INFO [1320/1440] rag_grounded | P10 | spaghetti_bolognese | run1 → limit (gold=limit) 2291ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.68it/s]
+2026-05-24 22:17:37,155 INFO [1321/1440] rag_grounded | P11 | sashimi | run1 → limit (gold=recommend) 1919ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.40it/s]
+2026-05-24 22:17:40,079 INFO [1322/1440] rag_grounded | P11 | greek_salad | run1 → limit (gold=recommend) 2885ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.34it/s]
+2026-05-24 22:17:41,603 INFO [1323/1440] rag_grounded | P11 | grilled_salmon | run1 → recommend (gold=recommend) 1488ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.78it/s]
+2026-05-24 22:17:43,528 INFO [1324/1440] rag_grounded | P11 | edamame | run1 → limit (gold=recommend) 1886ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.46it/s]
+2026-05-24 22:17:46,733 INFO [1325/1440] rag_grounded | P11 | omelette | run1 → limit (gold=recommend) 3162ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.95it/s]
+2026-05-24 22:17:49,198 INFO [1326/1440] rag_grounded | P11 | chicken_curry | run1 → limit (gold=recommend) 2424ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.75it/s]
+2026-05-24 22:17:52,706 INFO [1327/1440] rag_grounded | P11 | pho | run1 → limit (gold=recommend) 3466ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.61it/s]
+2026-05-24 22:17:55,478 INFO [1328/1440] rag_grounded | P11 | caprese_salad | run1 → limit (gold=recommend) 2731ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.28it/s]
+2026-05-24 22:17:58,291 INFO [1329/1440] rag_grounded | P11 | tuna_tartare | run1 → limit (gold=recommend) 2726ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.80it/s]
+2026-05-24 22:18:00,442 INFO [1330/1440] rag_grounded | P11 | french_fries | run1 → avoid (gold=avoid) 2114ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.37it/s]
+2026-05-24 22:18:02,588 INFO [1331/1440] rag_grounded | P11 | pizza | run1 → limit (gold=limit) 2097ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.37it/s]
+2026-05-24 22:18:04,061 INFO [1332/1440] rag_grounded | P11 | macaroni_and_cheese | run1 → avoid (gold=avoid) 1430ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.57it/s]
+2026-05-24 22:18:05,662 INFO [1333/1440] rag_grounded | P11 | nachos | run1 → avoid (gold=avoid) 1560ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.86it/s]
+2026-05-24 22:18:07,819 INFO [1334/1440] rag_grounded | P11 | hot_dog | run1 → avoid (gold=avoid) 2117ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.94it/s]
+2026-05-24 22:18:10,095 INFO [1335/1440] rag_grounded | P11 | apple_pie | run1 → avoid (gold=limit) 2234ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 32.27it/s]
+2026-05-24 22:18:12,396 INFO [1336/1440] rag_grounded | P11 | ice_cream | run1 → avoid (gold=avoid) 2268ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.99it/s]
+2026-05-24 22:18:14,628 INFO [1337/1440] rag_grounded | P11 | chocolate_cake | run1 → avoid (gold=avoid) 2188ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.55it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.54it/s]
+2026-05-24 22:18:17,058 INFO [1338/1440] rag_grounded | P11 | hummus | run1 → limit (gold=recommend) 2207ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.86it/s]
+2026-05-24 22:18:19,679 INFO [1339/1440] rag_grounded | P11 | beet_salad | run1 → limit (gold=recommend) 2560ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.92it/s]
+2026-05-24 22:18:21,580 INFO [1340/1440] rag_grounded | P11 | guacamole | run1 → limit (gold=recommend) 1859ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.11it/s]
+2026-05-24 22:18:24,436 INFO [1341/1440] rag_grounded | P11 | steak | run1 → limit (gold=recommend) 2812ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.45it/s]
+2026-05-24 22:18:26,733 INFO [1342/1440] rag_grounded | P11 | hamburger | run1 → limit (gold=limit) 2254ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.35it/s]
+2026-05-24 22:18:28,133 INFO [1343/1440] rag_grounded | P11 | ramen | run1 → avoid (gold=limit) 1358ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.82it/s]
+2026-05-24 22:18:29,960 INFO [1344/1440] rag_grounded | P11 | spaghetti_bolognese | run1 → limit (gold=limit) 1784ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.00it/s]
+2026-05-24 22:18:31,851 INFO [1345/1440] rag_grounded | P12 | sashimi | run1 → avoid (gold=recommend) 1846ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.72it/s]
+2026-05-24 22:18:34,530 INFO [1346/1440] rag_grounded | P12 | greek_salad | run1 → limit (gold=recommend) 2635ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.97it/s]
+2026-05-24 22:18:36,855 INFO [1347/1440] rag_grounded | P12 | grilled_salmon | run1 → avoid (gold=recommend) 2282ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.38it/s]
+2026-05-24 22:18:38,635 INFO [1348/1440] rag_grounded | P12 | edamame | run1 → limit (gold=recommend) 1735ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.53it/s]
+2026-05-24 22:18:40,333 INFO [1349/1440] rag_grounded | P12 | omelette | run1 → limit (gold=recommend) 1657ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.47it/s]
+2026-05-24 22:18:41,634 INFO [1350/1440] rag_grounded | P12 | chicken_curry | run1 → limit (gold=limit) 1260ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.82it/s]
+2026-05-24 22:18:43,805 INFO [1351/1440] rag_grounded | P12 | pho | run1 → limit (gold=limit) 2130ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.72it/s]
+2026-05-24 22:18:45,212 INFO [1352/1440] rag_grounded | P12 | caprese_salad | run1 → limit (gold=recommend) 1361ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.14it/s]
+2026-05-24 22:18:47,914 INFO [1353/1440] rag_grounded | P12 | tuna_tartare | run1 → avoid (gold=recommend) 2657ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.22it/s]
+2026-05-24 22:18:49,175 INFO [1354/1440] rag_grounded | P12 | french_fries | run1 → avoid (gold=avoid) 1220ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.40it/s]
+2026-05-24 22:18:50,425 INFO [1355/1440] rag_grounded | P12 | pizza | run1 → limit (gold=avoid) 1207ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 21.18it/s]
+2026-05-24 22:18:52,036 INFO [1356/1440] rag_grounded | P12 | macaroni_and_cheese | run1 → limit (gold=avoid) 1557ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.46it/s]
+2026-05-24 22:18:53,335 INFO [1357/1440] rag_grounded | P12 | nachos | run1 → limit (gold=avoid) 1250ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.43it/s]
+2026-05-24 22:18:55,273 INFO [1358/1440] rag_grounded | P12 | hot_dog | run1 → avoid (gold=avoid) 1895ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.95it/s]
+2026-05-24 22:18:57,217 INFO [1359/1440] rag_grounded | P12 | apple_pie | run1 → avoid (gold=limit) 1870ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.95it/s]
+2026-05-24 22:18:59,201 INFO [1360/1440] rag_grounded | P12 | ice_cream | run1 → limit (gold=limit) 1939ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.54it/s]
+2026-05-24 22:19:00,779 INFO [1361/1440] rag_grounded | P12 | chocolate_cake | run1 → limit (gold=limit) 1537ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.38it/s]
+2026-05-24 22:19:03,411 INFO [1362/1440] rag_grounded | P12 | hummus | run1 → limit (gold=recommend) 2587ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.70it/s]
+2026-05-24 22:19:05,446 INFO [1363/1440] rag_grounded | P12 | beet_salad | run1 → limit (gold=recommend) 1993ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.10it/s]
+2026-05-24 22:19:07,575 INFO [1364/1440] rag_grounded | P12 | guacamole | run1 → limit (gold=recommend) 2081ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.45it/s]
+2026-05-24 22:19:09,045 INFO [1365/1440] rag_grounded | P12 | steak | run1 → limit (gold=limit) 1426ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.27it/s]
+2026-05-24 22:19:10,179 INFO [1366/1440] rag_grounded | P12 | hamburger | run1 → limit (gold=avoid) 1095ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 100.22it/s]
+2026-05-24 22:19:11,817 INFO [1367/1440] rag_grounded | P12 | ramen | run1 → limit (gold=avoid) 1626ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.00it/s]
+2026-05-24 22:19:13,326 INFO [1368/1440] rag_grounded | P12 | spaghetti_bolognese | run1 → limit (gold=limit) 1468ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.05it/s]
+2026-05-24 22:19:15,954 INFO [1369/1440] rag_grounded | P13 | sashimi | run1 → limit (gold=recommend) 2587ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.39it/s]
+2026-05-24 22:19:17,642 INFO [1370/1440] rag_grounded | P13 | greek_salad | run1 → limit (gold=recommend) 1641ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.67it/s]
+2026-05-24 22:19:19,330 INFO [1371/1440] rag_grounded | P13 | grilled_salmon | run1 → recommend (gold=recommend) 1647ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.30it/s]
+2026-05-24 22:19:21,325 INFO [1372/1440] rag_grounded | P13 | edamame | run1 → limit (gold=recommend) 1955ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.60it/s]
+2026-05-24 22:19:22,936 INFO [1373/1440] rag_grounded | P13 | omelette | run1 → limit (gold=recommend) 1567ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.82it/s]
+2026-05-24 22:19:25,132 INFO [1374/1440] rag_grounded | P13 | chicken_curry | run1 → limit (gold=limit) 2150ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.70it/s]
+2026-05-24 22:19:27,849 INFO [1375/1440] rag_grounded | P13 | pho | run1 → limit (gold=limit) 2682ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.30it/s]
+2026-05-24 22:19:30,256 INFO [1376/1440] rag_grounded | P13 | caprese_salad | run1 → limit (gold=recommend) 2369ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.77it/s]
+2026-05-24 22:19:32,963 INFO [1377/1440] rag_grounded | P13 | tuna_tartare | run1 → limit (gold=recommend) 2667ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.75it/s]
+2026-05-24 22:19:34,552 INFO [1378/1440] rag_grounded | P13 | french_fries | run1 → limit (gold=limit) 1549ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.20it/s]
+2026-05-24 22:19:36,671 INFO [1379/1440] rag_grounded | P13 | pizza | run1 → limit (gold=avoid) 2076ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 21.49it/s]
+2026-05-24 22:19:38,934 INFO [1380/1440] rag_grounded | P13 | macaroni_and_cheese | run1 → avoid (gold=avoid) 2211ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.20it/s]
+2026-05-24 22:19:41,331 INFO [1381/1440] rag_grounded | P13 | nachos | run1 → avoid (gold=avoid) 2352ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.91it/s]
+2026-05-24 22:19:43,380 INFO [1382/1440] rag_grounded | P13 | hot_dog | run1 → limit (gold=limit) 2005ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.74it/s]
+2026-05-24 22:19:45,487 INFO [1383/1440] rag_grounded | P13 | apple_pie | run1 → avoid (gold=limit) 2066ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.57it/s]
+2026-05-24 22:19:47,221 INFO [1384/1440] rag_grounded | P13 | ice_cream | run1 → limit (gold=avoid) 1689ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.20it/s]
+2026-05-24 22:19:49,263 INFO [1385/1440] rag_grounded | P13 | chocolate_cake | run1 → avoid (gold=avoid) 2000ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.08it/s]
+2026-05-24 22:19:51,921 INFO [1386/1440] rag_grounded | P13 | hummus | run1 → limit (gold=limit) 2614ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.26it/s]
+2026-05-24 22:19:53,728 INFO [1387/1440] rag_grounded | P13 | beet_salad | run1 → limit (gold=limit) 1762ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.96it/s]
+2026-05-24 22:19:56,005 INFO [1388/1440] rag_grounded | P13 | guacamole | run1 → avoid (gold=limit) 2235ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.63it/s]
+2026-05-24 22:19:58,548 INFO [1389/1440] rag_grounded | P13 | steak | run1 → limit (gold=limit) 2498ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.11it/s]
+2026-05-24 22:19:59,970 INFO [1390/1440] rag_grounded | P13 | hamburger | run1 → limit (gold=limit) 1378ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.97it/s]
+2026-05-24 22:20:02,342 INFO [1391/1440] rag_grounded | P13 | ramen | run1 → limit (gold=limit) 2328ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.61it/s]
+2026-05-24 22:20:04,497 INFO [1392/1440] rag_grounded | P13 | spaghetti_bolognese | run1 → limit (gold=limit) 2111ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.07it/s]
+2026-05-24 22:20:06,839 INFO [1393/1440] rag_grounded | P14 | sashimi | run1 → limit (gold=recommend) 2292ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.73it/s]
+2026-05-24 22:20:08,979 INFO [1394/1440] rag_grounded | P14 | greek_salad | run1 → limit (gold=recommend) 2100ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.64it/s]
+2026-05-24 22:20:10,496 INFO [1395/1440] rag_grounded | P14 | grilled_salmon | run1 → recommend (gold=recommend) 1475ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.14it/s]
+2026-05-24 22:20:12,419 INFO [1396/1440] rag_grounded | P14 | edamame | run1 → limit (gold=recommend) 1883ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.05it/s]
+2026-05-24 22:20:15,703 INFO [1397/1440] rag_grounded | P14 | omelette | run1 → limit (gold=recommend) 3237ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.08it/s]
+2026-05-24 22:20:18,539 INFO [1398/1440] rag_grounded | P14 | chicken_curry | run1 → limit (gold=recommend) 2791ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.49it/s]
+2026-05-24 22:20:21,541 INFO [1399/1440] rag_grounded | P14 | pho | run1 → limit (gold=recommend) 2960ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.04it/s]
+2026-05-24 22:20:23,886 INFO [1400/1440] rag_grounded | P14 | caprese_salad | run1 → limit (gold=recommend) 2301ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.89it/s]
+2026-05-24 22:20:26,773 INFO [1401/1440] rag_grounded | P14 | tuna_tartare | run1 → limit (gold=recommend) 2844ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.49it/s]
+2026-05-24 22:20:28,894 INFO [1402/1440] rag_grounded | P14 | french_fries | run1 → avoid (gold=avoid) 2076ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.78it/s]
+2026-05-24 22:20:31,008 INFO [1403/1440] rag_grounded | P14 | pizza | run1 → limit (gold=limit) 2070ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.07it/s]
+2026-05-24 22:20:32,772 INFO [1404/1440] rag_grounded | P14 | macaroni_and_cheese | run1 → avoid (gold=avoid) 1717ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.73it/s]
+2026-05-24 22:20:34,366 INFO [1405/1440] rag_grounded | P14 | nachos | run1 → avoid (gold=avoid) 1554ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.28it/s]
+2026-05-24 22:20:36,456 INFO [1406/1440] rag_grounded | P14 | hot_dog | run1 → avoid (gold=avoid) 2045ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.02it/s]
+2026-05-24 22:20:38,716 INFO [1407/1440] rag_grounded | P14 | apple_pie | run1 → avoid (gold=limit) 2209ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.34it/s]
+2026-05-24 22:20:40,898 INFO [1408/1440] rag_grounded | P14 | ice_cream | run1 → avoid (gold=avoid) 2136ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.73it/s]
+2026-05-24 22:20:43,148 INFO [1409/1440] rag_grounded | P14 | chocolate_cake | run1 → avoid (gold=avoid) 2207ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.18it/s]
+2026-05-24 22:20:45,792 INFO [1410/1440] rag_grounded | P14 | hummus | run1 → limit (gold=recommend) 2601ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.12it/s]
+2026-05-24 22:20:48,645 WARNING Could not parse JSON from LLM output; used keyword fallback. Raw: {
+  "verdict": "limit",
+  "reason": "Beet salad is a low-GI food, but it is high in potassium (beets are one of the richest sources of potassium). Given that you have an eGFR of 80 mL/min/1.73m² and e
+2026-05-24 22:20:48,645 INFO [1411/1440] rag_grounded | P14 | beet_salad | run1 → limit (gold=recommend) 2807ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.36it/s]
+2026-05-24 22:20:51,109 INFO [1412/1440] rag_grounded | P14 | guacamole | run1 → limit (gold=recommend) 2418ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.33it/s]
+2026-05-24 22:20:53,121 INFO [1413/1440] rag_grounded | P14 | steak | run1 → limit (gold=recommend) 1969ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.66it/s]
+2026-05-24 22:20:55,511 INFO [1414/1440] rag_grounded | P14 | hamburger | run1 → limit (gold=limit) 2342ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.58it/s]
+2026-05-24 22:20:57,115 INFO [1415/1440] rag_grounded | P14 | ramen | run1 → limit (gold=limit) 1563ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.63it/s]
+2026-05-24 22:20:59,116 INFO [1416/1440] rag_grounded | P14 | spaghetti_bolognese | run1 → limit (gold=limit) 1957ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.52it/s]
+2026-05-24 22:21:01,434 INFO [1417/1440] rag_grounded | P15 | sashimi | run1 → limit (gold=recommend) 2277ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.66it/s]
+2026-05-24 22:21:03,975 INFO [1418/1440] rag_grounded | P15 | greek_salad | run1 → recommend (gold=recommend) 2496ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.39it/s]
+2026-05-24 22:21:06,158 INFO [1419/1440] rag_grounded | P15 | grilled_salmon | run1 → recommend (gold=recommend) 2139ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.48it/s]
+2026-05-24 22:21:08,278 INFO [1420/1440] rag_grounded | P15 | edamame | run1 → limit (gold=recommend) 2076ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.08it/s]
+2026-05-24 22:21:10,452 INFO [1421/1440] rag_grounded | P15 | omelette | run1 → limit (gold=recommend) 2131ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.43it/s]
+2026-05-24 22:21:12,662 INFO [1422/1440] rag_grounded | P15 | chicken_curry | run1 → limit (gold=limit) 2167ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.99it/s]
+2026-05-24 22:21:15,095 INFO [1423/1440] rag_grounded | P15 | pho | run1 → limit (gold=limit) 2393ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 21.55it/s]
+2026-05-24 22:21:18,037 INFO [1424/1440] rag_grounded | P15 | caprese_salad | run1 → limit (gold=recommend) 2893ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.30it/s]
+2026-05-24 22:21:20,479 INFO [1425/1440] rag_grounded | P15 | tuna_tartare | run1 → limit (gold=recommend) 2398ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.32it/s]
+2026-05-24 22:21:23,108 INFO [1426/1440] rag_grounded | P15 | french_fries | run1 → avoid (gold=avoid) 2587ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.56it/s]
+2026-05-24 22:21:25,394 INFO [1427/1440] rag_grounded | P15 | pizza | run1 → limit (gold=avoid) 2244ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 21.48it/s]
+2026-05-24 22:21:27,741 INFO [1428/1440] rag_grounded | P15 | macaroni_and_cheese | run1 → limit (gold=avoid) 2297ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.12it/s]
+2026-05-24 22:21:29,760 INFO [1429/1440] rag_grounded | P15 | nachos | run1 → limit (gold=avoid) 1973ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.57it/s]
+2026-05-24 22:21:32,431 INFO [1430/1440] rag_grounded | P15 | hot_dog | run1 → limit (gold=avoid) 2626ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.77it/s]
+2026-05-24 22:21:34,510 INFO [1431/1440] rag_grounded | P15 | apple_pie | run1 → avoid (gold=limit) 2039ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 24.05it/s]
+2026-05-24 22:21:36,944 INFO [1432/1440] rag_grounded | P15 | ice_cream | run1 → avoid (gold=avoid) 2387ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.11it/s]
+2026-05-24 22:21:40,044 INFO [1433/1440] rag_grounded | P15 | chocolate_cake | run1 → avoid (gold=avoid) 3060ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.18it/s]
+2026-05-24 22:21:42,081 INFO [1434/1440] rag_grounded | P15 | hummus | run1 → limit (gold=limit) 1996ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.76it/s]
+2026-05-24 22:21:44,891 INFO [1435/1440] rag_grounded | P15 | beet_salad | run1 → limit (gold=limit) 2766ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.82it/s]
+2026-05-24 22:21:48,055 INFO [1436/1440] rag_grounded | P15 | guacamole | run1 → limit (gold=limit) 3122ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 21.17it/s]
+2026-05-24 22:21:50,191 INFO [1437/1440] rag_grounded | P15 | steak | run1 → limit (gold=limit) 2084ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.72it/s]
+2026-05-24 22:21:52,089 INFO [1438/1440] rag_grounded | P15 | hamburger | run1 → limit (gold=avoid) 1842ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.41it/s]
+2026-05-24 22:21:54,224 INFO [1439/1440] rag_grounded | P15 | ramen | run1 → limit (gold=avoid) 2081ms
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.21it/s]
+2026-05-24 22:21:56,671 INFO [1440/1440] rag_grounded | P15 | spaghetti_bolognese | run1 → limit (gold=limit) 2403ms
+2026-05-24 22:21:56,672 INFO Experiment complete. 1440 rows written, 0 errors. CSV: /Users/prabinkarki/Desktop/DESSERTATIOHN/dietary-ai/results/raw.csv

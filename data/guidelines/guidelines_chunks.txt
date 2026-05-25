@@ -1,0 +1,38 @@
+[SOURCE: NICE NG28 / Diabetes UK – Type 2 Diabetes Dietary Guidance]
+Individuals with type 2 diabetes should follow a healthy, balanced diet that helps manage blood glucose levels. Reducing intake of refined carbohydrates and foods with a high glycaemic index (GI) is recommended. High-GI foods such as white bread, white rice, sugary drinks, and fried pastries cause rapid blood glucose spikes. Low-GI alternatives such as whole grains, legumes, non-starchy vegetables, and most fruits are preferred. Portion control of all carbohydrate-containing foods is essential regardless of GI.
+
+[SOURCE: NICE NG28 / Diabetes UK – Fat and Protein Recommendations]
+Saturated fat should be limited in people with diabetes due to its association with insulin resistance and cardiovascular risk. Lean proteins (fish, poultry, legumes) are preferred over red and processed meats. Oily fish (salmon, mackerel, sardines) provides omega-3 fatty acids that improve insulin sensitivity and reduce cardiovascular risk. Ultra-processed foods should be avoided due to high sugar, salt, and saturated fat content.
+
+[SOURCE: NICE NG28 – HbA1c Thresholds for Diabetes]
+A fasting plasma glucose ≥ 7.0 mmol/L or HbA1c ≥ 48 mmol/mol (6.5%) confirms a diagnosis of type 2 diabetes. An HbA1c of 42–47 mmol/mol indicates pre-diabetes (impaired glucose regulation). For management targets, most adults with T2DM aim for HbA1c ≤ 53 mmol/mol (7.0%) to reduce microvascular complications.
+
+[SOURCE: NICE NG136 / AHA / DASH – Hypertension Dietary Guidance]
+The DASH (Dietary Approaches to Stop Hypertension) diet is recommended for patients with hypertension (BP ≥ 140/90 mmHg). It emphasises fruits, vegetables, whole grains, and low-fat dairy, while limiting sodium, saturated fat, and red meat. The American Heart Association (AHA) recommends reducing sodium intake to less than 2,300 mg per day, with an ideal target below 1,500 mg/day for most hypertensive patients.
+
+[SOURCE: NICE NG136 / AHA – Foods to Avoid in Hypertension]
+High-sodium foods that should be avoided or strictly limited include: processed meats (bacon, ham, sausages), canned soups, fast food, soy sauce, pickled foods, and restaurant meals with added salt. Fried foods are associated with increased cardiovascular risk and weight gain, both of which worsen hypertension. Foods rich in potassium (bananas, avocados, leafy greens, fish) help counteract sodium effects and are generally recommended unless CKD is also present.
+
+[SOURCE: NICE NG136 – Blood Pressure Thresholds]
+Hypertension is defined as clinic blood pressure ≥ 140/90 mmHg (stage 1) or ≥ 160/100 mmHg (stage 2). Stage 1 hypertension with evidence of cardiovascular disease, renal damage, or 10-year CV risk ≥ 10% should receive drug treatment alongside lifestyle interventions. Lifestyle changes are first-line for all stages: weight reduction, DASH diet, sodium restriction, alcohol reduction, and regular physical activity.
+
+[SOURCE: KDOQI 2020 – CKD Nutritional Guidance]
+In chronic kidney disease (CKD), dietary management aims to slow disease progression and prevent metabolic complications. eGFR < 60 mL/min/1.73m² indicates CKD stage 3. eGFR < 30 indicates stage 4. Protein intake should be moderated (0.6–0.8 g/kg/day in non-dialysis CKD) to reduce uraemic toxin load without causing malnutrition. High-quality protein sources (eggs, fish, poultry) are preferred over red and processed meats.
+
+[SOURCE: KDOQI 2020 – Potassium in CKD]
+Hyperkalaemia (serum potassium > 5.5 mmol/L) is a serious complication in CKD that can cause fatal cardiac arrhythmias. Patients with CKD stage 3+ and elevated potassium should restrict dietary potassium. High-potassium foods to avoid: avocados, bananas, potatoes (especially fried), tomatoes, oranges, nuts, legumes, chocolate, and dairy in large amounts. Boiling and discarding water from vegetables reduces potassium content by 30–50%.
+
+[SOURCE: KDOQI 2020 – Phosphate in CKD]
+Hyperphosphataemia accelerates CKD progression and causes secondary hyperparathyroidism and renal bone disease. Phosphate restriction is required when serum phosphate is elevated (> 1.7 mmol/L). Foods very high in phosphate include: dairy products (cheese, milk, yogurt), processed meats (phosphate additives), cola drinks, dark chocolate, nuts, and fast food. Plant-based phosphate is less bioavailable than animal-derived phosphate, making plant proteins preferable in CKD.
+
+[SOURCE: KDOQI 2020 / NICE CKD Guidelines – Sodium in CKD]
+Sodium restriction (< 2 g/day) is recommended in CKD to control blood pressure and reduce proteinuria progression. High-sodium foods (processed meats, canned foods, fast food, pickles, soy sauce) are particularly harmful in CKD patients who often have comorbid hypertension. Salt substitutes containing potassium chloride should be avoided due to hyperkalaemia risk.
+
+[SOURCE: Coeliac UK / FSA – Gluten-Free Dietary Requirements]
+Coeliac disease is an autoimmune condition triggered by gluten (a protein in wheat, barley, rye, and contaminated oats). Strict lifelong avoidance of gluten is essential. Foods containing gluten that must be avoided: bread, pasta, pizza, cakes, biscuits, beer, and any product containing wheat flour unless certified gluten-free. Cross-contamination in food preparation is a significant risk even with small traces of gluten.
+
+[SOURCE: FSA / NICE – Food Allergy Guidance]
+The 14 major allergens under UK law include: celery, cereals containing gluten, crustaceans (shellfish), eggs, fish, lupin, milk, molluscs, mustard, peanuts, sesame, soybeans, sulphur dioxide/sulphites, and tree nuts. Allergic reactions can range from mild (urticaria, GI symptoms) to severe anaphylaxis. Individuals with shellfish allergy must avoid all crustaceans (prawns, crab, lobster, crayfish). Those with fish allergy must avoid finfish but may tolerate shellfish (and vice versa) though cross-reactivity exists.
+
+[SOURCE: Diabetes UK / AHA – Zero-shot Context]
+When advising on dietary choices for individuals with chronic conditions, always consider the combined effect of multiple comorbidities. A food that is safe for diabetes may be harmful in CKD (e.g., avocados have beneficial fats for diabetes/BP but are very high in potassium, dangerous in CKD). Always provide the most conservative recommendation when multiple conditions are present, and flag any allergy concerns as absolute contraindications.
